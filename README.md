@@ -44,5 +44,5 @@ This image can be found at `/source/img/default.jpg`
 and can be configured through the theme config like this:
 ```yaml
 # If featured_image is missing from a post, this one will be used.
-featured_image: ./img/default.jpg
+featured_image: /img/default.jpg
 ```
