@@ -34,7 +34,7 @@ Example:
 ---
 title: ❤️ Welcome to the deep space harbor ❤️
 date: 9716-10-14 23:47:55
-featured_image: images/featured/welcome.jpg
+featured_image: /images/featured/welcome.jpg
 ---
 This post uses welcome.jpg as featured image.
 ```
