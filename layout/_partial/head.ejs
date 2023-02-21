@@ -8,10 +8,7 @@
   <meta name="description" content="<%= description %>" />
   <meta property="og:title" content="<%= page.title || config.title %>" />
   <meta property="og:url" content="<%= page.permalink || config.url %>" />
-  <meta
-    property="og:image"
-    content="<%- config.url %><%- config.root %><%- page.featured_image || theme.featured_image %>"
-  />
+  <meta property="og:image" content="<%- config.url %><%- page.featured_image || theme.featured_image %>" />
   <meta property="og:type" content="<%- is_post() ? "article" : "website" %>" />
   <meta property="og:description" content="<%= description %>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
