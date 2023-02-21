@@ -1,0 +1,18 @@
+<div class="cards-grid">
+  <% page.posts.each(function(item, index){ %> <%- partial('_partial/index-card', {item: item}) %> <% }); %>
+</div>
+<div style="padding-bottom: 20px">
+  <% if (page.prev){ %>
+  <div class="pagination-container">
+    <a href="<%- config.root %><%- page.prev_link %>" class="regular-link">
+      <div class="pagination-item" data-augmented-ui="border">Go Back</div></a
+    >
+  </div>
+  <% } %> <% if (page.next){ %>
+  <div class="pagination-container">
+    <a href="<%- config.root %><%- page.next_link %>" class="regular-link">
+      <div class="pagination-item" data-augmented-ui="border">Next</div></a
+    >
+  </div>
+  <% } %>
+</div>
