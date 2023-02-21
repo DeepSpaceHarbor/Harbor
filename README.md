@@ -1,4 +1,4 @@
-[![notebook-mockup-on-desk](https://user-images.githubusercontent.com/11393457/220272963-c92d7e57-a88c-4f42-b379-6a8020ee5920.jpg)](https://deepspaceharbor.github.io/Harbor/)
+[![](https://user-images.githubusercontent.com/11393457/220273339-829b2754-5ab0-4f51-b4b4-a9b0e366aa4f.jpg)](https://deepspaceharbor.github.io/Harbor/)
 
 ### [Check out the demo](https://deepspaceharbor.github.io/Harbor/)
 
