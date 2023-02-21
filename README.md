@@ -26,7 +26,6 @@ Welcome 🥳
 ```
 
 ### Featured image
-#### Featured image via front matter
 The recommended way is to use `featured_image` attribute in front matter, and have different image for each post. 
 
 Example:
