@@ -2,9 +2,8 @@ title: HTML Elements
 featured_image: /files/featured-img/html.jpg
 categories: []
 tags: []
-summary: >-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu varius nisl,
-sit amet tempor turpis. Integer non lacinia odio.
+summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu varius nisl,
+sit amet tempor turpis. Integer non lacinia odio."
 date: 2023-02-20 22:18:23
 
 ---
