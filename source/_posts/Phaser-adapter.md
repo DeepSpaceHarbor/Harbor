@@ -1,10 +1,12 @@
 title: Phaser adapter
-featured_image: files/featured-img/phazer.jpg
+featured_image: /files/featured-img/phazer.jpg
 categories: []
 tags: []
 summary: Adaptive phaser design proposal.
 date: 2023-02-20 22:11:01
+
 ---
+
 Bacon ipsum dolor amet chuck leberkas ground round swine beef ribs, filet mignon jowl landjaeger hamburger. Biltong cupim spare ribs corned beef drumstick tenderloin ham hock landjaeger rump beef. Tail beef ribs picanha filet mignon landjaeger andouille brisket tenderloin tri-tip burgdoggen doner porchetta boudin. Picanha short loin burgdoggen sirloin. Jerky shank t-bone sausage drumstick pork belly frankfurter alcatra prosciutto beef ribs short ribs short loin ground round filet mignon. Jowl fatback pork, prosciutto beef ribs turkey picanha salami ribeye chuck. Jerky ham tri-tip, prosciutto chicken bacon drumstick strip steak short loin cupim andouille pork belly fatback pastrami.
 
 Buffalo flank alcatra capicola pig pancetta tail ribeye doner pork loin. Hamburger strip steak alcatra frankfurter prosciutto cow ham tenderloin pancetta chislic picanha. Brisket tenderloin porchetta, pork loin tongue picanha cupim tail fatback chuck filet mignon andouille burgdoggen doner prosciutto. Tenderloin jerky ham hock boudin flank pork chop ribeye pastrami andouille pancetta landjaeger. Salami sausage pancetta pork chop. Ribeye drumstick tongue, alcatra strip steak andouille tenderloin bresaola tail cow ground round leberkas salami pork. Capicola pork loin chicken kielbasa meatball, kevin ball tip ham jowl sirloin turkey pork belly flank tenderloin leberkas.
