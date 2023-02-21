@@ -1,0 +1,24 @@
+<div class="post_container">
+  <div class="post_container-wrapper" data-augmented-ui="border tl-clip tr-clip bl-clip br-clip">
+    <div class="post-title" data-augmented-ui="border tl-clip tr-clip"><%- page.title || page.link%></div>
+    <% if(Boolean(page.featured_image)){ %>
+    <div class="post-featured-image-container" data-augmented-ui="border">
+      <img
+        class="post-featured-image"
+        src="<%- config.root %><%- page.featured_image %>"
+        alt="Featured image for <%=page.title %>"
+      />
+    </div>
+    <% }%>
+    <div class="post-content"><%- page.content %></div>
+    <div class="post-date" onclick="scrollToTop()" data-augmented-ui="border bl-clip br-clip">
+      <%= page.date.format(config.date_format) %>
+    </div>
+  </div>
+</div>
+
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+</script>
