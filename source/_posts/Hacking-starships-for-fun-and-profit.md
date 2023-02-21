@@ -2,10 +2,9 @@ title: Hacking starships for fun and profit
 featured_image: /files/featured-img/starship-post.jpg
 categories: []
 tags: []
-summary: >-
-A starship, starcraft, or interstellar spacecraft is a theoretical spacecraft
+summary: "A starship, starcraft, or interstellar spacecraft is a theoretical spacecraft
 designed for traveling between planetary systems. This is a dummy blog post
-with somewhat long title and description.
+with somewhat long title and description."
 date: 2023-02-20 21:47:34
 
 ---
