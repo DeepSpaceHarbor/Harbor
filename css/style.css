@@ -1,0 +1,224 @@
+@font-face {
+  font-family: VenusRising;
+  src: url(../font/venus-rising-rg.otf);
+}
+
+@font-face {
+  font-family: Orbitron;
+  src: url(../font/orbitron.woff2);
+}
+
+:root {
+  /* Simple Dashed Pattern
+  https://www.toptal.com/designers/subtlepatterns/simple-dashed/
+  */
+  background: #000000
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAIAAACQKrqGAAAAN0lEQVQokWNgQAIiIiK4uGhSOITQBPEYQMA8rGbjVEFL1dgB+T7DIojfAMKOweckTN3UVodLDwAEMAhxIGTi5gAAAABJRU5ErkJggg==)
+    repeat;
+  color: white;
+  font-family: Roboto;
+}
+
+/* Logo */
+.logo {
+  width: fit-content;
+  font-size: 20px;
+  font-family: Orbitron;
+  font-weight: 900;
+  font-style: normal;
+  padding: 0.5em 1.3em;
+  text-align: center;
+  background-color: #ff0;
+  color: #090909;
+  transition: all 0.5s;
+}
+
+.logo:hover {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.logo-container {
+  margin-left: 20px;
+  filter: drop-shadow(0 0 2px #ff0);
+}
+
+/* Index layout */
+.cards-grid {
+  margin: 20px;
+  margin-bottom: 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: 15px;
+}
+
+/* Post cards */
+.card-container {
+  filter: drop-shadow(0 0 3px #1fcdee);
+  margin: 10px 0px;
+  max-width: 450px;
+  height: fit-content;
+  transition: all 0.5s;
+}
+.card-container:hover {
+  filter: drop-shadow(0 0 5px #ff0);
+}
+.card-summary-container {
+  background: linear-gradient(#000000, #090909);
+  --aug-border: 2px;
+  --aug-border-bg: cyan;
+  max-width: 440px;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-summary-container {
+    max-width: 340px;
+  }
+}
+
+.card-title {
+  font-family: VenusRising;
+  padding: 0.5em 2em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-align: center;
+  background-color: #ff0;
+  color: black;
+  transition: all 0.3s;
+}
+
+.card-title:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.card-featured-image-container {
+  height: 100px;
+  background-color: #ff0;
+  color: black;
+}
+
+.card-featured-image {
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-summary {
+  padding: 1em;
+  margin: 0;
+  display: block;
+  line-height: 1.4em;
+  text-align: justify;
+}
+
+/* Blog post */
+.post_container {
+  width: 55%;
+  filter: drop-shadow(0 0 3px #00f5ff);
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .post_container {
+    width: 90%;
+  }
+}
+
+.post_container-wrapper {
+  background: linear-gradient(to top, #000000, #090909);
+  --aug-border: 2px;
+  --aug-border-bg: #00ffff;
+  margin-bottom: 20px;
+}
+.post-title {
+  font-family: VenusRising;
+  padding: 0.5em 2em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-align: center;
+  background-color: #ff0;
+  color: black;
+  --aug-br: 0.75em;
+  transition: all 0.3s;
+}
+.post-title:hover,
+.post-date:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.post-date {
+  font-family: VenusRising;
+  padding: 0.5em 2em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-align: center;
+  background-color: #ff0;
+  color: black;
+  transition: all 0.3s;
+}
+
+.post-date:hover {
+  cursor: pointer;
+}
+.post-content {
+  padding: 10px;
+  background: linear-gradient(to left top, #000000, #090909);
+}
+
+.post-featured-image-container {
+  height: 150px;
+  background-color: #ff0;
+  color: black;
+}
+
+.post-featured-image {
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Pagination */
+.pagination-item {
+  width: fit-content;
+
+  font-family: Orbitron;
+  font-weight: 900;
+  font-style: normal;
+  padding: 0.5em 1.3em;
+  text-align: center;
+  background-color: #ff0;
+  color: #090909;
+  --aug-border-all: 2px;
+}
+
+.pagination-container {
+  display: inline-block;
+  margin: 20px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  filter: drop-shadow(0 0 2px black);
+}
+
+.pagination-container:hover {
+  filter: drop-shadow(0 0 2px #ff0);
+}
+
+/* Utils */
+.regular-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a {
+  color: #ff0;
+}
+
+a:hover {
+  text-decoration: none;
+}
