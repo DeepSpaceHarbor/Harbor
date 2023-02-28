@@ -3,14 +3,13 @@ on:
   push:
     branches:
       - demo-content
-      - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
       uses: actions/checkout@master
-      with: 
+      with:
         submodules: recursive
     - name: Build and Deploy
       uses: DeepSpaceHarbor/hexo-deploy-action@master
