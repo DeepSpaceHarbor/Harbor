@@ -1,0 +1,3 @@
+[submodule "themes/Harbor"]
+	path = themes/Harbor
+	url = git@github.com:DeepSpaceHarbor/Harbor.git
