@@ -30,13 +30,12 @@
   text-align: center;
   background-color: #ff0;
   color: #090909;
-  --aug-border-all: 2px;
-  --aug-border-top: 0px;
   transition: all 0.5s;
 }
 
 .logo:hover {
-  --aug-border-all: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .logo-container {
